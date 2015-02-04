@@ -1,0 +1,818 @@
+{
+  "NGM SElect": {
+    "BLUE": {
+      "json_class": "AFT::Locus",
+      "LOCUS": {
+        "D10": {
+          "8": {
+            "json_class": "AFT::Allele"
+          },
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "vMA": {
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          },
+          "20": {
+            "json_class": "AFT::Allele"
+          },
+          "21": {
+            "json_class": "AFT::Allele"
+          },
+          "22": {
+            "json_class": "AFT::Allele"
+          },
+          "23": {
+            "json_class": "AFT::Allele"
+          },
+          "24": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D16": {
+          "5": {
+            "json_class": "AFT::Allele"
+          },
+          "8": {
+            "json_class": "AFT::Allele"
+          },
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D2": {
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          },
+          "20": {
+            "json_class": "AFT::Allele"
+          },
+          "21": {
+            "json_class": "AFT::Allele"
+          },
+          "22": {
+            "json_class": "AFT::Allele"
+          },
+          "23": {
+            "json_class": "AFT::Allele"
+          },
+          "24": {
+            "json_class": "AFT::Allele"
+          },
+          "25": {
+            "json_class": "AFT::Allele"
+          },
+          "26": {
+            "json_class": "AFT::Allele"
+          },
+          "27": {
+            "json_class": "AFT::Allele"
+          },
+          "28": {
+            "json_class": "AFT::Allele"
+          }
+        }
+      }
+    },
+    "GREEN": {
+      "json_class": "AFT::Locus",
+      "LOCUS": {
+        "D8": {
+          "8": {
+            "json_class": "AFT::Allele"
+          },
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D21": {
+          "24": {
+            "json_class": "AFT::Allele"
+          },
+          "24.2": {
+            "json_class": "AFT::Allele"
+          },
+          "25": {
+            "json_class": "AFT::Allele"
+          },
+          "26": {
+            "json_class": "AFT::Allele"
+          },
+          "27": {
+            "json_class": "AFT::Allele"
+          },
+          "28": {
+            "json_class": "AFT::Allele"
+          },
+          "28.2": {
+            "json_class": "AFT::Allele"
+          },
+          "29": {
+            "json_class": "AFT::Allele"
+          },
+          "29.2": {
+            "json_class": "AFT::Allele"
+          },
+          "30": {
+            "json_class": "AFT::Allele"
+          },
+          "30.2": {
+            "json_class": "AFT::Allele"
+          },
+          "31": {
+            "json_class": "AFT::Allele"
+          },
+          "31.2": {
+            "json_class": "AFT::Allele"
+          },
+          "32": {
+            "json_class": "AFT::Allele"
+          },
+          "32.2": {
+            "json_class": "AFT::Allele"
+          },
+          "33": {
+            "json_class": "AFT::Allele"
+          },
+          "33.2": {
+            "json_class": "AFT::Allele"
+          },
+          "34": {
+            "json_class": "AFT::Allele"
+          },
+          "34.2": {
+            "json_class": "AFT::Allele"
+          },
+          "35": {
+            "json_class": "AFT::Allele"
+          },
+          "35.2": {
+            "json_class": "AFT::Allele"
+          },
+          "36": {
+            "json_class": "AFT::Allele"
+          },
+          "37": {
+            "json_class": "AFT::Allele"
+          },
+          "38": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D18": {
+          "7": {
+            "json_class": "AFT::Allele"
+          },
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "10.2": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "13.2": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "14.2": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          },
+          "20": {
+            "json_class": "AFT::Allele"
+          },
+          "21": {
+            "json_class": "AFT::Allele"
+          },
+          "22": {
+            "json_class": "AFT::Allele"
+          },
+          "23": {
+            "json_class": "AFT::Allele"
+          },
+          "24": {
+            "json_class": "AFT::Allele"
+          },
+          "25": {
+            "json_class": "AFT::Allele"
+          },
+          "26": {
+            "json_class": "AFT::Allele"
+          },
+          "27": {
+            "json_class": "AFT::Allele"
+          }
+        }
+      }
+    },
+    "YELLOW": {
+      "json_class": "AFT::Locus",
+      "LOCUS": {
+        "D22": {
+          "8": {
+            "json_class": "AFT::Allele"
+          },
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D19": {
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "12.2": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "13.2": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "14.2": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "15.2": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "16.2": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "17.2": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "TH01": {
+          "4": {
+            "json_class": "AFT::Allele"
+          },
+          "5": {
+            "json_class": "AFT::Allele"
+          },
+          "6": {
+            "json_class": "AFT::Allele"
+          },
+          "7": {
+            "json_class": "AFT::Allele"
+          },
+          "8": {
+            "json_class": "AFT::Allele"
+          },
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "9.3": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "13.3": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "FGA": {
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          },
+          "20": {
+            "json_class": "AFT::Allele"
+          },
+          "21": {
+            "json_class": "AFT::Allele"
+          },
+          "22": {
+            "json_class": "AFT::Allele"
+          },
+          "23": {
+            "json_class": "AFT::Allele"
+          },
+          "24": {
+            "json_class": "AFT::Allele"
+          },
+          "25": {
+            "json_class": "AFT::Allele"
+          },
+          "26": {
+            "json_class": "AFT::Allele"
+          },
+          "26.2": {
+            "json_class": "AFT::Allele"
+          },
+          "27": {
+            "json_class": "AFT::Allele"
+          },
+          "28": {
+            "json_class": "AFT::Allele"
+          },
+          "29": {
+            "json_class": "AFT::Allele"
+          },
+          "30": {
+            "json_class": "AFT::Allele"
+          },
+          "30.2": {
+            "json_class": "AFT::Allele"
+          },
+          "31.2": {
+            "json_class": "AFT::Allele"
+          },
+          "32.2": {
+            "json_class": "AFT::Allele"
+          },
+          "33.2": {
+            "json_class": "AFT::Allele"
+          },
+          "42.2": {
+            "json_class": "AFT::Allele"
+          },
+          "43.2": {
+            "json_class": "AFT::Allele"
+          },
+          "44.2": {
+            "json_class": "AFT::Allele"
+          },
+          "45.2": {
+            "json_class": "AFT::Allele"
+          },
+          "46.2": {
+            "json_class": "AFT::Allele"
+          },
+          "47.2": {
+            "json_class": "AFT::Allele"
+          },
+          "48.2": {
+            "json_class": "AFT::Allele"
+          },
+          "50.2": {
+            "json_class": "AFT::Allele"
+          },
+          "51.2": {
+            "json_class": "AFT::Allele"
+          }
+        }
+      }
+    },
+    "RED": {
+      "json_class": "AFT::Locus",
+      "LOCUS": {
+        "D2": {
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "11.3": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D3": {
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D1": {
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "10": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "14.3": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "15.3": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "16.3": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "17.3": {
+            "json_class": "AFT::Allele"
+          },
+          "18.3": {
+            "json_class": "AFT::Allele"
+          },
+          "19.3": {
+            "json_class": "AFT::Allele"
+          },
+          "20.3": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "D12": {
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          },
+          "19.3": {
+            "json_class": "AFT::Allele"
+          },
+          "20": {
+            "json_class": "AFT::Allele"
+          },
+          "21": {
+            "json_class": "AFT::Allele"
+          },
+          "22": {
+            "json_class": "AFT::Allele"
+          },
+          "23": {
+            "json_class": "AFT::Allele"
+          },
+          "24": {
+            "json_class": "AFT::Allele"
+          },
+          "25": {
+            "json_class": "AFT::Allele"
+          },
+          "26": {
+            "json_class": "AFT::Allele"
+          },
+          "27": {
+            "json_class": "AFT::Allele"
+          }
+        },
+        "SE33": {
+          "4.2": {
+            "json_class": "AFT::Allele"
+          },
+          "6.3": {
+            "json_class": "AFT::Allele"
+          },
+          "8": {
+            "json_class": "AFT::Allele"
+          },
+          "9": {
+            "json_class": "AFT::Allele"
+          },
+          "11": {
+            "json_class": "AFT::Allele"
+          },
+          "12": {
+            "json_class": "AFT::Allele"
+          },
+          "13": {
+            "json_class": "AFT::Allele"
+          },
+          "14": {
+            "json_class": "AFT::Allele"
+          },
+          "15": {
+            "json_class": "AFT::Allele"
+          },
+          "16": {
+            "json_class": "AFT::Allele"
+          },
+          "17": {
+            "json_class": "AFT::Allele"
+          },
+          "18": {
+            "json_class": "AFT::Allele"
+          },
+          "19": {
+            "json_class": "AFT::Allele"
+          },
+          "20": {
+            "json_class": "AFT::Allele"
+          },
+          "20.2": {
+            "json_class": "AFT::Allele"
+          },
+          "21": {
+            "json_class": "AFT::Allele"
+          },
+          "21.2": {
+            "json_class": "AFT::Allele"
+          },
+          "22.2": {
+            "json_class": "AFT::Allele"
+          },
+          "23.2": {
+            "json_class": "AFT::Allele"
+          },
+          "24.2": {
+            "json_class": "AFT::Allele"
+          },
+          "25.2": {
+            "json_class": "AFT::Allele"
+          },
+          "26.2": {
+            "json_class": "AFT::Allele"
+          },
+          "27.2": {
+            "json_class": "AFT::Allele"
+          },
+          "28.2": {
+            "json_class": "AFT::Allele"
+          },
+          "29.2": {
+            "json_class": "AFT::Allele"
+          },
+          "30.2": {
+            "json_class": "AFT::Allele"
+          },
+          "31.2": {
+            "json_class": "AFT::Allele"
+          },
+          "32.2": {
+            "json_class": "AFT::Allele"
+          },
+          "33.2": {
+            "json_class": "AFT::Allele"
+          },
+          "34.2": {
+            "json_class": "AFT::Allele"
+          },
+          "35": {
+            "json_class": "AFT::Allele"
+          },
+          "35.2": {
+            "json_class": "AFT::Allele"
+          },
+          "36": {
+            "json_class": "AFT::Allele"
+          },
+          "37": {
+            "json_class": "AFT::Allele"
+          }
+        }
+      }
+    }
+  }
+}
