@@ -1,0 +1,58 @@
+#navButtonContainer {
+    margin: -2% 0 2% 0 !important;
+    min-height: 50px !important;
+    width: 100% !important;
+    text-align: center;
+}
+
+#backButton {
+    background: url('../images/chevron-left.svg') no-repeat;
+    background-size: 50%;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
+#forwardButton {
+    background: url('../images/chevron-right.svg') no-repeat;
+    background-size: 50%;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
+#backDiv {
+    width: 20%;
+    float: left;
+    clear: none;
+    padding-top: 5%;
+}
+
+#forwardDiv {
+    width: 20%;
+    float: right;
+    clear: none;
+    padding-top: 5%;
+}
+
+.titleHeading {
+    float: left;
+    clear: none;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.testkits {
+    margin: auto 0;
+}
+
+.row1 {
+    margin-top: 4%;
+    clear: both;
+}
+
+.testkitButtons {
+    padding: none !important;
+    margin: 4% 4%;
+    text-align: center;
+    font-size: 1em !important;
+    white-space: normal !important;
+}
