@@ -1,32 +1,36 @@
-#navButtonContainer {
+.navButtonContainer {
     margin: -2% 0 2% 0 !important;
     min-height: 50px !important;
     width: 100% !important;
     text-align: center;
 }
 
-#backButton {
+#homeNavButton:hover {
+    cursor: pointer;
+}
+
+.backButton {
     background: url('../images/chevron-left.svg') no-repeat;
     background-size: 50%;
     min-height: 50px;
     vertical-align: middle;
 }
 
-#forwardButton {
+.forwardButton {
     background: url('../images/chevron-right.svg') no-repeat;
     background-size: 50%;
     min-height: 50px;
     vertical-align: middle;
 }
 
-#backDiv {
+.backDiv {
     width: 20%;
     float: left;
     clear: none;
     padding-top: 5%;
 }
 
-#forwardDiv {
+.forwardDiv {
     width: 20%;
     float: right;
     clear: none;
@@ -34,25 +38,87 @@
 }
 
 .titleHeading {
-    float: left;
     clear: none;
-    width: 45%;
-    margin-left: 5%;
+    margin: -10% auto 10%;
+    text-align: center;
 }
 
-.testkits {
+.section {
     margin: auto 0;
 }
 
-.row1 {
-    margin-top: 4%;
-    clear: both;
+.sectionWrapper {
+    padding: 1%;
+    width: 100%;
 }
 
-.testkitButtons {
+.testkitsButtons {
     padding: none !important;
-    margin: 4% 4%;
+    margin: 1% 2%;
     text-align: center;
     font-size: 1em !important;
     white-space: normal !important;
+    width: 28%;
+}
+
+.row1 {
+    clear: both;
+}
+
+.lociButtons {
+    padding: none !important;
+    margin: 1% 2%;
+    text-align: center;
+    font-size: 1em !important;
+    white-space: normal !important;
+    width: 12%;
+}
+
+#lociWrapper {
+    margin-bottom: 20%;
+}
+
+.allelesButtons {
+    padding: none !important;
+    margin: 1% 2%;
+    text-align: center;
+    font-size: 1em !important;
+    white-space: normal !important;
+    width: 12%;
+}
+
+.alleleTablesButtons {
+    padding: none !important;
+    margin: 1% 2%;
+    text-align: center;
+    font-size: 1em !important;
+    white-space: normal !important;
+    width: 46%;
+}
+
+#sampleCalculationsWrapper {
+    text-align: left;
+}
+
+#formWrapper {
+    padding-bottom: 5%;
+}
+
+#runCalculationsButton {
+    padding: none !important;
+    margin: 2% 2%;
+    text-align: center;
+    font-size: 1em !important;
+    white-space: normal !important;
+    width: 30%;
+    float: right;
+}
+
+.sampleForm {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.sampleForm label {
+    width: auto !important;
 }
