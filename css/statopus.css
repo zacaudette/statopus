@@ -25,6 +25,7 @@
     background-size: 50%;
     min-height: 50px;
     vertical-align: middle;
+    margin-left: 35%;
 }
 
 .backDiv {
@@ -135,5 +136,13 @@
         font-size: 1em !important;
         white-space: normal !important;
         width: 15%;
+    }
+
+    .forwardButton {
+        background: url('../images/chevron-right.svg') no-repeat;
+        background-size: 50%;
+        min-height: 50px;
+        vertical-align: middle;
+        margin-left: 45%;
     }
 }
