@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  *
  * @author Zac Audette
@@ -165,9 +164,6 @@ var statopus = new function() {
         }
     };
 
-=======
-var statopus = new function() {
->>>>>>> 34890d6b5fcef6ff369cc63856d83b2d6e6d4229
     var readJSONFile = function(callback) {
         var xml_http = new XMLHttpRequest();
         xml_http.overrideMimeType("application/json");
@@ -188,9 +184,6 @@ var statopus = new function() {
         //console.log(jsonresponse[0].name);
         };
         getTestKits(callback);
-    }
+    };
 };
-<<<<<<< HEAD
 statopus.launch();
-=======
->>>>>>> 34890d6b5fcef6ff369cc63856d83b2d6e6d4229
