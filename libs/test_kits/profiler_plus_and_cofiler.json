@@ -1,4 +1,4 @@
-{
+[{
   "profiler_plus_and_cofiler": {
     "BLUE": {
       "json_class": "AFT::Locus",
@@ -510,4 +510,4 @@
       }
     }
   }
-}
+}]

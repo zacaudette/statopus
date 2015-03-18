@@ -1,4 +1,4 @@
-{
+[{
   "power_plex_esx_17": {
     "BLUE": {
       "json_class": "AFT::Locus",
@@ -926,4 +926,4 @@
       }
     }
   }
-}
+}]
