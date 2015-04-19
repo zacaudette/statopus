@@ -1,5 +1,6 @@
-[{
+{
   "power_plex_esi_17": {
+    "NAME": "Power Plex ESI 17",
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {
@@ -926,4 +927,4 @@
       }
     }
   }
-}]
+}

@@ -1,5 +1,6 @@
 [{
   "power_plex_esx_17": {
+    "NAME": "Power Plex ESX 17",
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {

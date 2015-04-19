@@ -6,7 +6,15 @@
  *
 **/
 var statopus = new function() {
+    var self = this;
+    var testKits = [];
+
     // private variables
+    this.runApp = function() {
+        self.getTestKitsNames();
+        self.launch();
+    };
+
     this.launch = function() {
         // init nav home controles
         var homeNavButton = document.getElementById('homeNavButton');
@@ -164,26 +172,25 @@ var statopus = new function() {
         }
     };
 
-    var readJSONFile = function(callback) {
-        var xml_http = new XMLHttpRequest();
-        xml_http.overrideMimeType("application/json");
-        xml_http.open('GET', '../libs/test_kits/identifiler.json', true);
-        xml_http.onreadystatechange = function () {
-            if (xml_http.readyState == 4 && xobj.status == "200") {
-                callback(xml_http.responseText);
-            }
-        };
-        xml_http.send(null);
+    this.getTestKitsNames = function() {
+        $.getJSON("../libs/test_kits_names.json", function(data) {
+            self.getTestKits(data);
+        });
     };
 
-    var getTestKits = function() {
-        var callback = function(response) {
-        // Do Something with the response e.g.
-        //jsonresponse = JSON.parse(response);
-        // Assuming json data is wrapped in square brackets as Drew suggests
-        //console.log(jsonresponse[0].name);
-        };
-        getTestKits(callback);
+    this.getTestKits = function(data) {
+        var filenames = data.filenames;
+        var baseUrl = '../libs/test_kits/';
+        for (file in filenames) {
+            var url = baseUrl + filenames[file];
+            $.getJSON(url, function(data) {
+                self.testKits.push(data);
+            });
+        }
+    };
+
+    this.addTestkit to page = function(testkit) {
+
     };
 };
-statopus.launch();
+statopus.runApp();

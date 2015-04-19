@@ -1,5 +1,6 @@
-[{
+{
   "sgm_plus": {
+    "NAME": "SGM Plus",
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {
@@ -435,4 +436,4 @@
       }
     }
   }
-}]
+}

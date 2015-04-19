@@ -1,5 +1,6 @@
-[{
+{
   "ngm_select": {
+    "NAME": "NGM Select",
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {
@@ -815,4 +816,4 @@
       }
     }
   }
-}]
+}

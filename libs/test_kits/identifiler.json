@@ -1,5 +1,6 @@
-[{
+{
   "identifiler": {
+    "NAME": "Identifiler",
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {
@@ -597,4 +598,4 @@
       }
     }
   }
-}]
+}

@@ -1,5 +1,6 @@
-[{
+{
   "profiler_plus_and_cofiler": {
+    "NAME": "Profiler Plus and Cofiler",
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {
@@ -510,4 +511,4 @@
       }
     }
   }
-}]
+}

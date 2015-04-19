@@ -1,0 +1,14 @@
+{
+    "filenames": {
+        "indentifiler": "indentifiler.json",
+        "ngm_select": "ngm_select.json",
+        "power_plex_16": "power_plex_16.json",
+        "power_plex_21": "power_plex_21.json",
+        "power_plex_esi_17": "power_plex_esi_17.json",
+        "power_plex_esx_17": "power_plex_esx_17.json",
+        "profiler_plus_and_cofiler": "profiler_plus_and_cofiler.json",
+        "profiler_plus": "profiler_plus.json",
+        "sgm_plus": "sgm_plus.json",
+        "y_filer": "y_filer.json"
+    }
+}

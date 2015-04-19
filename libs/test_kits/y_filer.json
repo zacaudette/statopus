@@ -1,5 +1,6 @@
-[{
+{
   "y_filer": {
+    "NAME": "Y Filer",
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {
@@ -464,4 +465,4 @@
       }
     }
   }
-}]
+}
