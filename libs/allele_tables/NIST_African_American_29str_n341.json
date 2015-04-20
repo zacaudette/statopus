@@ -1,0 +1,2977 @@
+{
+  "json_class": "AFT::Table",
+  "data": {
+    "name": "NIST African American",
+    "region": "",
+    "ethnicity": "",
+    "citation_index": "",
+    "citation_date": "",
+    "citation": "",
+    "authors": "",
+    "table": {
+      "Amelogenin": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "X": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.501466275659824,
+                "num_observed_alleles": 342
+              }
+            },
+            "Y": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.49853372434017595,
+                "num_observed_alleles": 340
+              }
+            }
+          }
+        }
+      },
+      "CSF1PO": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.24780058651026393,
+                "num_observed_alleles": 169
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2961876832844575,
+                "num_observed_alleles": 202
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.039589442815249266,
+                "num_observed_alleles": 27
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.250733137829912,
+                "num_observed_alleles": 171
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05571847507331378,
+                "num_observed_alleles": 38
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05571847507331378,
+                "num_observed_alleles": 38
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.045454545454545456,
+                "num_observed_alleles": 31
+              }
+            }
+          }
+        }
+      },
+      "D10S1248": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2756598240469208,
+                "num_observed_alleles": 188
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13049853372434017,
+                "num_observed_alleles": 89
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.23313782991202345,
+                "num_observed_alleles": 159
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.19794721407624633,
+                "num_observed_alleles": 135
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.03519061583577713,
+                "num_observed_alleles": 24
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08797653958944282,
+                "num_observed_alleles": 60
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.024926686217008796,
+                "num_observed_alleles": 17
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D12S391": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.16715542521994134,
+                "num_observed_alleles": 114
+              }
+            },
+            "21": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06304985337243402,
+                "num_observed_alleles": 43
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06598240469208211,
+                "num_observed_alleles": 45
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10410557184750734,
+                "num_observed_alleles": 71
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.14809384164222875,
+                "num_observed_alleles": 101
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07771260997067449,
+                "num_observed_alleles": 53
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2536656891495601,
+                "num_observed_alleles": 173
+              }
+            },
+            "22": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.036656891495601175,
+                "num_observed_alleles": 25
+              }
+            },
+            "24": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.013196480938416423,
+                "num_observed_alleles": 9
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "23": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02932551319648094,
+                "num_observed_alleles": 20
+              }
+            },
+            "17.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "20.1": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "17.1": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "19.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "19.1": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "25": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "18.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "18.1": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D13S317": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.31085043988269795,
+                "num_observed_alleles": 212
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.4178885630498534,
+                "num_observed_alleles": 285
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13929618768328444,
+                "num_observed_alleles": 95
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.039589442815249266,
+                "num_observed_alleles": 27
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.03372434017595308,
+                "num_observed_alleles": 23
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02785923753665689,
+                "num_observed_alleles": 19
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.030791788856304986,
+                "num_observed_alleles": 21
+              }
+            }
+          }
+        }
+      },
+      "D16S539": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.31378299120234604,
+                "num_observed_alleles": 214
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.20527859237536658,
+                "num_observed_alleles": 140
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.18181818181818182,
+                "num_observed_alleles": 124
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.024926686217008796,
+                "num_observed_alleles": 17
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12316715542521994,
+                "num_observed_alleles": 84
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.11730205278592376,
+                "num_observed_alleles": 80
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.03225806451612903,
+                "num_observed_alleles": 22
+              }
+            },
+            "5": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D18S51": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.15249266862170088,
+                "num_observed_alleles": 104
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12023460410557185,
+                "num_observed_alleles": 82
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.17155425219941348,
+                "num_observed_alleles": 117
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07624633431085044,
+                "num_observed_alleles": 52
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1656891495601173,
+                "num_observed_alleles": 113
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.09970674486803519,
+                "num_observed_alleles": 68
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06304985337243402,
+                "num_observed_alleles": 43
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0718475073313783,
+                "num_observed_alleles": 49
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "21": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "22": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "13.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04105571847507331,
+                "num_observed_alleles": 28
+              }
+            },
+            "21.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "24": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "23": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "15.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D19S433": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.21114369501466276,
+                "num_observed_alleles": 144
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06304985337243402,
+                "num_observed_alleles": 43
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07917888563049853,
+                "num_observed_alleles": 54
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.24633431085043989,
+                "num_observed_alleles": 168
+              }
+            },
+            "13.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.051319648093841645,
+                "num_observed_alleles": 35
+              }
+            },
+            "16.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.026392961876832845,
+                "num_observed_alleles": 18
+              }
+            },
+            "14.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0747800586510264,
+                "num_observed_alleles": 51
+              }
+            },
+            "15.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06158357771260997,
+                "num_observed_alleles": 42
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12316715542521994,
+                "num_observed_alleles": 84
+              }
+            },
+            "17.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.010263929618768328,
+                "num_observed_alleles": 7
+              }
+            },
+            "12.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.036656891495601175,
+                "num_observed_alleles": 25
+              }
+            },
+            "18.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            }
+          }
+        }
+      },
+      "D1S1656": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06304985337243402,
+                "num_observed_alleles": 43
+              }
+            },
+            "16.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10263929618768329,
+                "num_observed_alleles": 70
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2565982404692082,
+                "num_observed_alleles": 175
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10997067448680352,
+                "num_observed_alleles": 75
+              }
+            },
+            "17.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04985337243401759,
+                "num_observed_alleles": 34
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.01466275659824047,
+                "num_observed_alleles": 10
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.15835777126099707,
+                "num_observed_alleles": 108
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10117302052785923,
+                "num_observed_alleles": 69
+              }
+            },
+            "18.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02346041055718475,
+                "num_observed_alleles": 16
+              }
+            },
+            "14.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.045454545454545456,
+                "num_observed_alleles": 31
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02785923753665689,
+                "num_observed_alleles": 19
+              }
+            },
+            "15.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02932551319648094,
+                "num_observed_alleles": 20
+              }
+            },
+            "19.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            }
+          }
+        }
+      },
+      "D21S11": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "28": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.24633431085043989,
+                "num_observed_alleles": 168
+              }
+            },
+            "30": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.17008797653958943,
+                "num_observed_alleles": 116
+              }
+            },
+            "29": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.20527859237536658,
+                "num_observed_alleles": 140
+              }
+            },
+            "31": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07917888563049853,
+                "num_observed_alleles": 54
+              }
+            },
+            "35": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.021994134897360705,
+                "num_observed_alleles": 15
+              }
+            },
+            "32.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06158357771260997,
+                "num_observed_alleles": 42
+              }
+            },
+            "27": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07331378299120235,
+                "num_observed_alleles": 50
+              }
+            },
+            "31.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.051319648093841645,
+                "num_observed_alleles": 35
+              }
+            },
+            "33": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "33.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.03519061583577713,
+                "num_observed_alleles": 24
+              }
+            },
+            "30.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "38": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "32": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "36": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "37": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "34": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "39": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "26": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "33.1": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "29.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D22S1045": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.14222873900293256,
+                "num_observed_alleles": 97
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.25219941348973607,
+                "num_observed_alleles": 172
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07771260997067449,
+                "num_observed_alleles": 53
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.19208211143695014,
+                "num_observed_alleles": 131
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.20967741935483872,
+                "num_observed_alleles": 143
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.054252199413489736,
+                "num_observed_alleles": 37
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04105571847507331,
+                "num_observed_alleles": 28
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.01466275659824047,
+                "num_observed_alleles": 10
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            }
+          }
+        }
+      },
+      "D2S1338": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05571847507331378,
+                "num_observed_alleles": 38
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10117302052785923,
+                "num_observed_alleles": 69
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13929618768328444,
+                "num_observed_alleles": 95
+              }
+            },
+            "26": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.01466275659824047,
+                "num_observed_alleles": 10
+              }
+            },
+            "21": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13636363636363635,
+                "num_observed_alleles": 93
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10410557184750734,
+                "num_observed_alleles": 71
+              }
+            },
+            "22": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1378299120234604,
+                "num_observed_alleles": 94
+              }
+            },
+            "24": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08211143695014662,
+                "num_observed_alleles": 56
+              }
+            },
+            "25": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07771260997067449,
+                "num_observed_alleles": 53
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04252199413489736,
+                "num_observed_alleles": 29
+              }
+            },
+            "23": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10263929618768329,
+                "num_observed_alleles": 70
+              }
+            },
+            "27": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D2S441": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.36070381231671556,
+                "num_observed_alleles": 246
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1656891495601173,
+                "num_observed_alleles": 113
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.26832844574780057,
+                "num_observed_alleles": 183
+              }
+            },
+            "11.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04398826979472141,
+                "num_observed_alleles": 30
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04398826979472141,
+                "num_observed_alleles": 30
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08504398826979472,
+                "num_observed_alleles": 58
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.01906158357771261,
+                "num_observed_alleles": 13
+              }
+            },
+            "12.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "14.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "13.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            }
+          }
+        }
+      },
+      "D3S1358": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.3181818181818182,
+                "num_observed_alleles": 217
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.30791788856304986,
+                "num_observed_alleles": 210
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2126099706744868,
+                "num_observed_alleles": 145
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05718475073313783,
+                "num_observed_alleles": 39
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.09090909090909091,
+                "num_observed_alleles": 62
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "15.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            }
+          }
+        }
+      },
+      "D5S818": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.23460410557184752,
+                "num_observed_alleles": 160
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.3680351906158358,
+                "num_observed_alleles": 251
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.22434017595307917,
+                "num_observed_alleles": 153
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07331378299120235,
+                "num_observed_alleles": 50
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.03225806451612903,
+                "num_observed_alleles": 22
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0469208211143695,
+                "num_observed_alleles": 32
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D6S1043": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.15395894428152493,
+                "num_observed_alleles": 105
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05718475073313783,
+                "num_observed_alleles": 39
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.22434017595307917,
+                "num_observed_alleles": 153
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0718475073313783,
+                "num_observed_alleles": 49
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0967741935483871,
+                "num_observed_alleles": 66
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05718475073313783,
+                "num_observed_alleles": 39
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.11290322580645161,
+                "num_observed_alleles": 77
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10703812316715543,
+                "num_observed_alleles": 73
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.054252199413489736,
+                "num_observed_alleles": 37
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "18.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "21": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.017595307917888565,
+                "num_observed_alleles": 12
+              }
+            },
+            "19.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "23": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.010263929618768328,
+                "num_observed_alleles": 7
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "24": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "25": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "26": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "21.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D7S820": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.3357771260997067,
+                "num_observed_alleles": 229
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.20234604105571846,
+                "num_observed_alleles": 138
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1158357771260997,
+                "num_observed_alleles": 79
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2287390029325513,
+                "num_observed_alleles": 156
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.01466275659824047,
+                "num_observed_alleles": 10
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.011730205278592375,
+                "num_observed_alleles": 8
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08797653958944282,
+                "num_observed_alleles": 60
+              }
+            },
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "D8S1179": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.29472140762463345,
+                "num_observed_alleles": 201
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1906158357771261,
+                "num_observed_alleles": 130
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13049853372434017,
+                "num_observed_alleles": 89
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.218475073313783,
+                "num_observed_alleles": 149
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05278592375366569,
+                "num_observed_alleles": 36
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06451612903225806,
+                "num_observed_alleles": 44
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.030791788856304986,
+                "num_observed_alleles": 21
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            }
+          }
+        }
+      },
+      "F13A01": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "4": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0689149560117302,
+                "num_observed_alleles": 47
+              }
+            },
+            "5": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.3387096774193548,
+                "num_observed_alleles": 231
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.19648093841642228,
+                "num_observed_alleles": 134
+              }
+            },
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12756598240469208,
+                "num_observed_alleles": 87
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05718475073313783,
+                "num_observed_alleles": 39
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.03372434017595308,
+                "num_observed_alleles": 23
+              }
+            },
+            "3.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1187683284457478,
+                "num_observed_alleles": 81
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.017595307917888565,
+                "num_observed_alleles": 12
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.013196480938416423,
+                "num_observed_alleles": 9
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "4.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            }
+          }
+        }
+      },
+      "F13B": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.3621700879765396,
+                "num_observed_alleles": 247
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10850439882697947,
+                "num_observed_alleles": 74
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2287390029325513,
+                "num_observed_alleles": 156
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.16715542521994134,
+                "num_observed_alleles": 114
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12903225806451613,
+                "num_observed_alleles": 88
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "6.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "FESFPS": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.09970674486803519,
+                "num_observed_alleles": 68
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.22580645161290322,
+                "num_observed_alleles": 154
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.32697947214076245,
+                "num_observed_alleles": 223
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.22580645161290322,
+                "num_observed_alleles": 154
+              }
+            },
+            "10.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04252199413489736,
+                "num_observed_alleles": 29
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04398826979472141,
+                "num_observed_alleles": 30
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02785923753665689,
+                "num_observed_alleles": 19
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "11.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "FGA": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "23": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.17008797653958943,
+                "num_observed_alleles": 116
+              }
+            },
+            "24": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13343108504398826,
+                "num_observed_alleles": 91
+              }
+            },
+            "21": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12316715542521994,
+                "num_observed_alleles": 84
+              }
+            },
+            "22": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.19941348973607037,
+                "num_observed_alleles": 136
+              }
+            },
+            "22.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "25": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1158357771260997,
+                "num_observed_alleles": 79
+              }
+            },
+            "27": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02346041055718475,
+                "num_observed_alleles": 16
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.051319648093841645,
+                "num_observed_alleles": 35
+              }
+            },
+            "26": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07038123167155426,
+                "num_observed_alleles": 48
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.054252199413489736,
+                "num_observed_alleles": 37
+              }
+            },
+            "18.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.017595307917888565,
+                "num_observed_alleles": 12
+              }
+            },
+            "30.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "28": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.01466275659824047,
+                "num_observed_alleles": 10
+              }
+            },
+            "31.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "22.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "16.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "29": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "30": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "19.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "23.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "17.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "25.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "LPL": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0747800586510264,
+                "num_observed_alleles": 51
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13049853372434017,
+                "num_observed_alleles": 89
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.3489736070381232,
+                "num_observed_alleles": 238
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.29472140762463345,
+                "num_observed_alleles": 201
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12316715542521994,
+                "num_observed_alleles": 84
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            }
+          }
+        }
+      },
+      "PentaC": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.27712609970674484,
+                "num_observed_alleles": 189
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.250733137829912,
+                "num_observed_alleles": 171
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08651026392961877,
+                "num_observed_alleles": 59
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.17302052785923755,
+                "num_observed_alleles": 118
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.07038123167155426,
+                "num_observed_alleles": 48
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.039589442815249266,
+                "num_observed_alleles": 27
+              }
+            },
+            "10.1": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.051319648093841645,
+                "num_observed_alleles": 35
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "5": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.024926686217008796,
+                "num_observed_alleles": 17
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            }
+          }
+        }
+      },
+      "PentaD": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "2.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.11436950146627566,
+                "num_observed_alleles": 78
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.18035190615835778,
+                "num_observed_alleles": 123
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10850439882697947,
+                "num_observed_alleles": 74
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08211143695014662,
+                "num_observed_alleles": 56
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.16862170087976538,
+                "num_observed_alleles": 115
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.09824046920821114,
+                "num_observed_alleles": 67
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04398826979472141,
+                "num_observed_alleles": 30
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10850439882697947,
+                "num_observed_alleles": 74
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.024926686217008796,
+                "num_observed_alleles": 17
+              }
+            },
+            "5": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04398826979472141,
+                "num_observed_alleles": 30
+              }
+            },
+            "3.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.010263929618768328,
+                "num_observed_alleles": 7
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "13.4": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            }
+          }
+        }
+      },
+      "PentaE": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "5": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.09530791788856305,
+                "num_observed_alleles": 65
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10410557184750734,
+                "num_observed_alleles": 71
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.16715542521994134,
+                "num_observed_alleles": 114
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12903225806451613,
+                "num_observed_alleles": 88
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06744868035190615,
+                "num_observed_alleles": 46
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.039589442815249266,
+                "num_observed_alleles": 27
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.10410557184750734,
+                "num_observed_alleles": 71
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.051319648093841645,
+                "num_observed_alleles": 35
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06451612903225806,
+                "num_observed_alleles": 44
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.05571847507331378,
+                "num_observed_alleles": 38
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0469208211143695,
+                "num_observed_alleles": 32
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04398826979472141,
+                "num_observed_alleles": 30
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "25": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "SE33": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.051319648093841645,
+                "num_observed_alleles": 35
+              }
+            },
+            "23.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.017595307917888565,
+                "num_observed_alleles": 12
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.09824046920821114,
+                "num_observed_alleles": 67
+              }
+            },
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.09530791788856305,
+                "num_observed_alleles": 65
+              }
+            },
+            "22.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.12756598240469208,
+                "num_observed_alleles": 87
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.011730205278592375,
+                "num_observed_alleles": 8
+              }
+            },
+            "22": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.01466275659824047,
+                "num_observed_alleles": 10
+              }
+            },
+            "28.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.045454545454545456,
+                "num_observed_alleles": 31
+              }
+            },
+            "14.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "24.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.013196480938416423,
+                "num_observed_alleles": 9
+              }
+            },
+            "21": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04838709677419355,
+                "num_observed_alleles": 33
+              }
+            },
+            "25.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.030791788856304986,
+                "num_observed_alleles": 21
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1187683284457478,
+                "num_observed_alleles": 81
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0469208211143695,
+                "num_observed_alleles": 32
+              }
+            },
+            "13.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.005865102639296188,
+                "num_observed_alleles": 4
+              }
+            },
+            "31.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "29.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.02346041055718475,
+                "num_observed_alleles": 16
+              }
+            },
+            "27.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04252199413489736,
+                "num_observed_alleles": 29
+              }
+            },
+            "26.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06304985337243402,
+                "num_observed_alleles": 43
+              }
+            },
+            "15.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "10.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "17.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "26": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "30.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.04398826979472141,
+                "num_observed_alleles": 30
+              }
+            },
+            "23": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.007331378299120235,
+                "num_observed_alleles": 5
+              }
+            },
+            "21.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.010263929618768328,
+                "num_observed_alleles": 7
+              }
+            },
+            "20.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "16.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "12.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "28.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "31": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "34": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "17.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "32.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "36": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "33.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            },
+            "11.2": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            }
+          }
+        }
+      },
+      "TH01": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.13196480938416422,
+                "num_observed_alleles": 90
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.4090909090909091,
+                "num_observed_alleles": 279
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.15835777126099707,
+                "num_observed_alleles": 108
+              }
+            },
+            "9.3": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.0967741935483871,
+                "num_observed_alleles": 66
+              }
+            },
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.19501466275659823,
+                "num_observed_alleles": 133
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            },
+            "5": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.004398826979472141,
+                "num_observed_alleles": 3
+              }
+            }
+          }
+        }
+      },
+      "TPOX": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "8": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.3680351906158358,
+                "num_observed_alleles": 251
+              }
+            },
+            "9": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.19501466275659823,
+                "num_observed_alleles": 133
+              }
+            },
+            "7": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.017595307917888565,
+                "num_observed_alleles": 12
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.2155425219941349,
+                "num_observed_alleles": 147
+              }
+            },
+            "6": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08944281524926687,
+                "num_observed_alleles": 61
+              }
+            },
+            "10": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08651026392961877,
+                "num_observed_alleles": 59
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.026392961876832845,
+                "num_observed_alleles": 18
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            }
+          }
+        }
+      },
+      "vWA": {
+        "json_class": "AFT::Locus",
+        "data": {
+          "individuals_sampled": 341,
+          "alleles": {
+            "17": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.23460410557184752,
+                "num_observed_alleles": 160
+              }
+            },
+            "16": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.250733137829912,
+                "num_observed_alleles": 171
+              }
+            },
+            "18": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1495601173020528,
+                "num_observed_alleles": 102
+              }
+            },
+            "15": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.1906158357771261,
+                "num_observed_alleles": 130
+              }
+            },
+            "14": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.08064516129032258,
+                "num_observed_alleles": 55
+              }
+            },
+            "19": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.06304985337243402,
+                "num_observed_alleles": 43
+              }
+            },
+            "13": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.008797653958944282,
+                "num_observed_alleles": 6
+              }
+            },
+            "20": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.016129032258064516,
+                "num_observed_alleles": 11
+              }
+            },
+            "12": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "21": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.001466275659824047,
+                "num_observed_alleles": 1
+              }
+            },
+            "11": {
+              "json_class": "AFT::Allele",
+              "data": {
+                "frequency": 0.002932551319648094,
+                "num_observed_alleles": 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

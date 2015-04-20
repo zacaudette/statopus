@@ -1,0 +1,8 @@
+{
+    "filenames": {
+        "nist_caucasion": "NIST_Caucasian_29str_n361.json",
+        "nist_african_american": "NIST_African_American_29str_n341.json",
+        "nist_hispanic": "NIST_Hispanic_29str_n236.json",
+        "nist_asian": "NIST_Asian_29str_n97.json"
+    }
+}

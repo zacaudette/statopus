@@ -4,17 +4,26 @@
  * @organization Wright State University
  * @license GNU General Public License v2.0
  *
+ * All questions can be sent to the author at zaudette14@gmail.com
 **/
 var statopus = new function() {
     var self = this;
     this.testkits = [];
+    this.alleletables = [];
     this.selectedTestkit = null;
+    this.selectedAlleleTable = null;
     this.selectedLoci = null;
     this.selectedAlleles = [];
+    this.randomMatchProbability = true;
+    this.combinedProbability = false;
+    this.thetaValue = null;
+    this.userName = '';
+    this.sampleName = '';
 
     // private variables
     this.runApp = function() {
         self.getTestKitsNames();
+        self.getAlleleTableNames();
         self.launch();
     };
 
@@ -136,11 +145,16 @@ var statopus = new function() {
             var alleleTablesForward = document.getElementById('alleleTablesForward');
             if (alleleTablesForward) {
                 alleleTablesForward.addEventListener('click', function() {
-                    var sampleCalculations = document.getElementById('sampleCalculations');
-                    if (sampleCalculations) {
-                        sampleCalculations.style.display = '';
+                    if (self.selectedAlleleTable === null) {
+                        window.alert('Please select at least on allele table before moving on.');
                     }
-                    alleleTables.style.display = 'none';
+                    else {
+                        var sampleCalculations = document.getElementById('sampleCalculations');
+                        if (sampleCalculations) {
+                            sampleCalculations.style.display = '';
+                        }
+                        alleleTables.style.display = 'none';
+                    }
                 });
             }
         }
@@ -224,19 +238,21 @@ var statopus = new function() {
                         }
                     }
 
-                    if (self.selectedTestkit === testkit.NAME) {
+                    if (self.selectedTestkit === this.id) {
                         self.selectedTestkit = null;
-                        button.style.borderColor = '#388038';
-                        button.style.backgroundColor = '#5cb85c';
+                        this.style.borderColor = '#388038';
+                        this.style.backgroundColor = '#5cb85c';
                     }
                     else {
-                        self.selectedTestkit = testkit.NAME;
-                        button.style.backgroundColor = '#388038';
+                        self.selectedTestkit = this.id;
+                        this.style.backgroundColor = '#388038';
+                        this.style.borderColor = '#ffffff';
                     }
                 }
                 else {
-                    self.selectedTestkit = testkit.NAME;
-                    button.style.backgroundColor = '#388038';
+                    self.selectedTestkit = this.id;
+                    this.style.backgroundColor = '#388038';
+                    this.style.borderColor = '#ffffff';
                 }
             });
         }
@@ -585,6 +601,69 @@ var statopus = new function() {
                     }
                 });
             }
+        }
+    };
+
+    this.getAlleleTableNames = function() {
+        $.getJSON("../libs/allele_table_names.json", function(data) {
+            self.getAlleleTables(data);
+        });
+    };
+
+    this.getAlleleTables = function(data) {
+        var filenames = data.filenames;
+        var baseUrl = '../libs/allele_tables/';
+        for (file in filenames) {
+            var url = baseUrl + filenames[file];
+            $.getJSON(url, function(data) {
+                self.alleletables.push(data.data);
+                self.addAlleleTableToPage(data.data);
+            });
+        }
+    };
+
+    this.addAlleleTableToPage = function(table) {
+        var alleleTablesContainer = document.getElementById('alleleTablesContainer');
+        if (alleleTablesContainer) {
+            var button = document.createElement('button');
+            button.id = table.name;
+            button.className = 'col-md-3 btn btn-lg btn-success alleleTablesButtons';
+            button.role = 'button';
+            button.innerText = table.name;
+            if (document.getElementById(table.name)) {
+            }
+            else {
+                alleleTablesContainer.appendChild(button);
+            }
+            button.addEventListener('click', function() {
+                if (self.selectedAlleleTable !== null) {
+                    var alleleTablesButtons = document.getElementsByClassName('alleleTablesButtons');
+                    if (alleleTablesButtons) {
+                        var l = alleleTablesButtons.length;
+                        for (var i = 0; i < l; i++) {
+                            var alleleTablesButton = alleleTablesButtons[i];
+                            alleleTablesButton.style.borderColor = '#388038';
+                            alleleTablesButton.style.backgroundColor = '#5cb85c';
+                        }
+                    }
+
+                    if (self.selectedAlleleTable === this.id) {
+                        self.selectedAlleleTable = null;
+                        this.style.borderColor = '#388038';
+                        this.style.backgroundColor = '#5cb85c';
+                    }
+                    else {
+                        self.selectedAlleleTable = this.id;
+                        this.style.backgroundColor = '#388038';
+                        this.style.borderColor = '#ffffff';
+                    }
+                }
+                else {
+                    self.selectedAlleleTable = this.id;
+                    this.style.backgroundColor = '#388038';
+                    this.style.borderColor = '#ffffff';
+                }
+            });
         }
     };
 };
