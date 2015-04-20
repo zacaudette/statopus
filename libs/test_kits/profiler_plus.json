@@ -1,5 +1,5 @@
 {
-  "profiler_plus": {
+  "testkit": {
     "NAME": "Profiler Plus",
     "BLUE": {
       "json_class": "AFT::Locus",

@@ -1,5 +1,5 @@
 {
-  "sgm_plus": {
+  "testkit": {
     "NAME": "SGM Plus",
     "BLUE": {
       "json_class": "AFT::Locus",

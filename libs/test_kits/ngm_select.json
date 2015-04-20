@@ -1,5 +1,5 @@
 {
-  "ngm_select": {
+  "testkit": {
     "NAME": "NGM Select",
     "BLUE": {
       "json_class": "AFT::Locus",

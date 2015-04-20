@@ -28,6 +28,16 @@
     margin-left: 35%;
 }
 
+.yellow {
+    background-color: #fff062;
+    border-color: #fff062;
+}
+
+.yellow:hover {
+    background-color: #fff062;
+    border-color: #fff062;
+}
+
 .backDiv {
     width: 20%;
     float: left;

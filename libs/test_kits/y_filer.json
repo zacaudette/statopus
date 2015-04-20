@@ -1,5 +1,5 @@
 {
-  "y_filer": {
+  "testkit": {
     "NAME": "Y Filer",
     "BLUE": {
       "json_class": "AFT::Locus",

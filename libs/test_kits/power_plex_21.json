@@ -1,5 +1,5 @@
 {
-  "power_plex_21": {
+  "testkit": {
     "NAME": "Power Plex 21",
     "BLUE": {
       "json_class": "AFT::Locus",

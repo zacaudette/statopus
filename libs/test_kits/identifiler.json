@@ -1,5 +1,5 @@
 {
-  "identifiler": {
+  "testkit": {
     "NAME": "Identifiler",
     "BLUE": {
       "json_class": "AFT::Locus",
