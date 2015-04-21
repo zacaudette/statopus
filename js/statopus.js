@@ -792,7 +792,7 @@ var statopus = new function() {
             // calcualte the total likelihood
             var length = result.loci.length;
             var likelihood = 1;
-            for (var i = 0; i < length: i++) {
+            for (var i = 0; i < length; i++) {
                 var p = result.loci[i].p;
                 likelihood = likelihood * p;
             }
