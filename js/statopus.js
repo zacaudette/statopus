@@ -721,7 +721,7 @@ var statopus = new function() {
                     };
                     loc.alleles = [];
                     var l = self.selectedAlleles.length;
-                    for(int i = 0; i < l; i++) {
+                    for(var i = 0; i < l; i++) {
                         var allele = self.selectedAlleles[i];
                         if(loci === allele.loci) {
                             loc.alleles.push(allele);
@@ -739,7 +739,7 @@ var statopus = new function() {
                     };
                     loc.alleles = [];
                     var l = self.selectedAlleles.length;
-                    for(int i = 0; i < l; i++) {
+                    for(var i = 0; i < l; i++) {
                         var allele = self.selectedAlleles[i];
                         if(loci === allele.loci) {
                             loc.alleles.push(allele);
@@ -753,13 +753,13 @@ var statopus = new function() {
                 var locus = testkit.BLUE.LOCUS;
                 for(loci in locus) {
                     var l = self.selectedAlleles.length;
-                    for (int i = 0; i < l; i++) {
+                    for (var i = 0; i < l; i++) {
                         var loc = {
                             locus: loci
                         };
                         loc.alleles = [];
                         var l = self.selectedAlleles.length;
-                        for(int i = 0; i < l; i++) {
+                        for(var i = 0; i < l; i++) {
                             var allele = self.selectedAlleles[i];
                             if(loci === allele.loci) {
                                 loc.alleles.push(allele);
@@ -778,7 +778,7 @@ var statopus = new function() {
                     };
                     loc.alleles = [];
                     var l = self.selectedAlleles.length;
-                    for(int i = 0; i < l; i++) {
+                    for(var i = 0; i < l; i++) {
                         var allele = self.selectedAlleles[i];
                         if(loci === allele.loci) {
                             loc.alleles.push(allele);
