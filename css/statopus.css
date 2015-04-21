@@ -28,6 +28,14 @@
     margin-left: 35%;
 }
 
+.calcForwardButton {
+    background-size: 50%;
+    background-color: transparent;
+    min-height: 50px;
+    vertical-align: middle;
+    margin-left: 35%;
+}
+
 .yellow {
     background-color: #fff062;
     border-color: #fff062;

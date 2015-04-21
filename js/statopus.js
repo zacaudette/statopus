@@ -9,6 +9,7 @@
 var statopus = new function() {
     var self = this;
     this.testkits = [];
+    this.finalTestkit = null;
     this.alleletables = [];
     this.selectedTestkit = null;
     this.selectedAlleleTables = [];
@@ -16,10 +17,12 @@ var statopus = new function() {
     this.selectedAlleles = [];
     this.randomMatchProbability = false;
     this.combinedProbability = false;
-    this.thetaValue = null;
+    this.thetaValue = 0.01;
     this.userName = '';
     this.sampleName = '';
     this.closeRelatives = '';
+    this.randomMatchResults = [];
+    this.combinedMatchResults = [];
 
     // private variables
     this.runApp = function() {
@@ -173,24 +176,11 @@ var statopus = new function() {
                     sampleCalculations.style.display = 'none';
                 });
             }
-            var sampleCalculationsForward = document.getElementById('sampleCalculationsForward');
-            if (sampleCalculationsForward) {
-                sampleCalculationsForward.addEventListener('click', function() {
-                    var home = document.getElementById('home');
-                    if (home) {
-                        home.style.display = '';
-                    }
-                    sampleCalculations.style.display = 'none';
-                });
-            }
             var runCalculationsButton = document.getElementById('runCalculationsButton');
             if (runCalculationsButton) {
                 runCalculationsButton.addEventListener('click', function() {
-                    var home = document.getElementById('home');
-                    if (home) {
-                        home.style.display = '';
-                    }
-                    runCalculationsButton.style.display = 'none';
+                    self.runCalculations();
+                    sampleCalculations.style.display = '';
                 });
             }
         }
@@ -266,6 +256,7 @@ var statopus = new function() {
             var kit = self.testkits[i];
             if (self.selectedTestkit === kit.NAME) {
                 testkit = kit;
+                self.finalTestkit = testkit;
                 break;
             }
         }
@@ -567,7 +558,7 @@ var statopus = new function() {
                     if (l > 0) {
                         for (var i = 0; i < l; i++) {
                             var selectedAllele = self.selectedAlleles[i];
-                            if (selectedAllele.allele === this.getAttribute('alleleValue')) {
+                            if (selectedAllele.allele === this.getAttribute('alleleValue') && selectedAllele.loci === this.getAttribute('lociValue')) {
                                 previouslySelected = true;
                                 index = i;
                                 break;
@@ -667,6 +658,218 @@ var statopus = new function() {
                 }
             });
         }
+    };
+
+    this.runCalculations = function() {
+        var sampleName = document.getElementById('sampleName');
+        if (sampleName) {
+            self.sampleName = sampleName.value;
+        }
+        var userName = document.getElementById('userName');
+        if (userName) {
+            self.userName = userName.value;
+        }
+        var thetaValue = document.getElementById('thetaValue');
+        if (thetaValue) {
+            self.thetaValue = thetaValue.value;
+        }
+        var closeRelative = document.getElementById('closeRelative');
+        if (closeRelative) {
+            self.closeRelatives = closeRelative.value;
+        }
+        var combinedProb = document.getElementById('combinedProb');
+        if (combinedProb.checked) {
+            self.combinedProbability = true;
+        }
+        var randomProb = document.getElementById('randomProb');
+        if (randomProb.checked) {
+            self.randomMatchProbability = true;
+        }
+        console.log(self.selectedAlleles);
+        console.log(self.selectedAlleleTables);
+        console.log(self.randomMatchProbability);
+        console.log(self.combinedProbability);
+        console.log(self.closeRelatives);
+        console.log(self.thetaValue);
+        console.log(self.userName);
+        console.log(self.sampleName);
+
+        if (self.randomMatchProbability) {
+            self.runRandomMatchCalculations();
+        }
+
+        if(self.combinedProbability) {
+            self.runCombinedCalculations();
+        }
+    };
+
+    this.runRandomMatchCalculations = function() {
+        var testkit = self.finalTestkit;
+        var satl = self.selectedAlleleTables.length;
+        var table = null; // the table to be used for calculations
+        for (var s = 0; s < satl; s++) {
+            table = self.getTableByName(self.selectedAlleleTables[s]);
+            var result = {
+                table: table
+            };
+            result.loci = [];
+            if(testkit.BLUE) {
+                var locus = testkit.BLUE.LOCUS;
+                for(loci in locus) {
+                    var loc = {
+                        locus: loci
+                    };
+                    loc.alleles = [];
+                    var l = self.selectedAlleles.length;
+                    for(int i = 0; i < l; i++) {
+                        var allele = self.selectedAlleles[i];
+                        if(loci === allele.loci) {
+                            loc.alleles.push(allele);
+                        }
+                    }
+                    var finalLocus = self.randomMatchCalculation(loc);
+                    result.loci.push(finalLocus);
+                }
+            }
+            if(testkit.GREEN) {
+                var locus = testkit.BLUE.LOCUS;
+                for (loci in locus) {
+                    var loc = {
+                        locus: loci
+                    };
+                    loc.alleles = [];
+                    var l = self.selectedAlleles.length;
+                    for(int i = 0; i < l; i++) {
+                        var allele = self.selectedAlleles[i];
+                        if(loci === allele.loci) {
+                            loc.alleles.push(allele);
+                        }
+                    }
+                    var finalLocus = self.randomMatchCalculation(loc);
+                    result.loci.push(finalLocus);
+                }
+            }
+            if(testkit.YELLOW) {
+                var locus = testkit.BLUE.LOCUS;
+                for(loci in locus) {
+                    var l = self.selectedAlleles.length;
+                    for (int i = 0; i < l; i++) {
+                        var loc = {
+                            locus: loci
+                        };
+                        loc.alleles = [];
+                        var l = self.selectedAlleles.length;
+                        for(int i = 0; i < l; i++) {
+                            var allele = self.selectedAlleles[i];
+                            if(loci === allele.loci) {
+                                loc.alleles.push(allele);
+                            }
+                        }
+                        var finalLocus = self.randomMatchCalculation(loc);
+                        result.loci.push(finalLocus);
+                    }
+                }
+            }
+            if(testkit.RED) {
+                var locus = testkit.BLUE.LOCUS;
+                for(loci in locus) {
+                    var loc = {
+                        locus: loci
+                    };
+                    loc.alleles = [];
+                    var l = self.selectedAlleles.length;
+                    for(int i = 0; i < l; i++) {
+                        var allele = self.selectedAlleles[i];
+                        if(loci === allele.loci) {
+                            loc.alleles.push(allele);
+                        }
+                    }
+                    var finalLocus = self.randomMatchCalculation(loc);
+                    result.loci.push(finalLocus);
+                }
+            }
+
+            // calcualte the total likelihood
+            var length = result.loci.length;
+            var likelihood = 1;
+            for (var i = 0; i < length: i++) {
+                var p = result.loci[i].p;
+                likelihood = likelihood * p;
+            }
+            result.likelihood = likelihood;
+            result.oneInN = 1.0 / likelihood;
+            self.randomMatchResults.push(result);
+        }
+    };
+
+    self.randomMatchCalculation = function(t, locus) {
+        var allelesCount = locus.alleles.length;
+        // homozygote
+        if (allelesCount === 1) {
+            switch(self.closeRelatives) {
+                case 'siblings':
+                    var f = self.getFrequency(t, locus.alleles[0]);
+                    locus.alleles[0].frequency = f;
+                    var partOne = (1 + f) * (1 + f);
+                    var partTwo = (7 + (7 * f) - ((2 * f) * (2 * f))) * self.thetaValue;
+                    var partThree = (16 - (9 * f) + (f * f)) * (self.thetaValue * self.thetaValue);
+                    var partFour = (2 * (1 + self.thetaValue) * (1 + (2 * self.thetaValue)));
+                    var p = (partOne + partTwo + partThree) / partFour;
+                    locus.p = p;
+                    break;
+                case 'halfSiblings':
+                    break;
+                case 'parentChild':
+                    break;
+                case 'firstCousins':
+                    break;
+                case 'none':
+                default:
+                    var f = self.getFrequency(t, locus.alleles[0]);
+                    locus.alleles[0].frequency = f;
+                    var p = (f * f) + f * (1 - f) * self.thetaValue;
+                    locus.p = p;
+                    break;
+            }
+        }
+        else if (allelesCount > 1) { // heterozygote
+
+        }
+        return locus;
+    }
+
+    this.runCombinedCalculations = function() {
+
+    };
+
+    this.getFrequency = function(t, a) {
+        var table = t.table;
+        var frequency = null;
+        for (loci in table) {
+            if (loci === data.loci) {
+                var alleles = loci.data.alleles;
+                for (allele in alleles) {
+                    if (a === allele) {
+                        frequency = allele.data.frequency;
+                        break;
+                    }
+                }
+            }
+        }
+        return frequency;
+    };
+
+    this.getTableByName = function(name) {
+        var table = null;
+        var length = self.alleletables.length;
+        for (var a = 0; a < length; a++) {
+            var t = self.alleletables[a];
+            if (table.name === name) {
+                table = t;
+                break;
+            }
+        }
+        return table;
     };
 };
 statopus.runApp();

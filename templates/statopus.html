@@ -91,23 +91,23 @@
         <div id="sampleCalculations" class="jumbotron section" style="display:none;">
             <div class="navButtonContainer">
                 <div id="sampleCalculationsBack" class="backDiv"><button class="backButton btn"></button></div>
-                <div id="sampleCalculationsForward" class="forwardDiv"><button class="forwardButton btn"></button></div>
+                <div id="sampleCalculationsForward" class="forwardDiv"><button class="calcForwardButton btn"></button></div>
             </div>
             <div id="sampleCalculationsWrapper" class="sectionWrapper">
                 <h1 class="titleHeading">
                     Sample Calculations
                 </h1>
-                <form id="formWrapper" class="form-horizontal">
+                <div id="formWrapper" class="form-horizontal">
                     <label id="probabilityType">Probability Types</label>
                     <div class="sampleForm form-group checkbox">
                         <label>
-                            <input type="checkbox" id="randomProb">
+                            <input type="checkbox" id="randomProb" value="randomProb">
                             Random Match Probability
                         </label>
                         </div>
                     <div class="sampleForm form-group checkbox">
                         <label>
-                            <input type="checkbox" id="combinedProb">
+                            <input type="checkbox" id="combinedProb" value="combinedProb">
                             Combined Probability of Inclusion
                         </label>
                     </div>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <button id="runCalculationsButton" class="col-md-3 btn btn-lg btn-success" role="button">Run Calculations</button>
-                </form>
+                </div>
             </div>
         </div>
 
