@@ -98,22 +98,31 @@
                     Sample Calculations
                 </h1>
                 <form id="formWrapper" class="form-horizontal">
-                    <div class="sampleForm form-group radio">
+                    <label id="probabilityType">Probability Types</label>
+                    <div class="sampleForm form-group checkbox">
                         <label>
-                            <input type="radio" name="probabilityRadios" id="randomProb" value="randomProb" checked>
+                            <input type="checkbox" id="randomProb">
                             Random Match Probability
                         </label>
                         </div>
-                    <div class="fsampleForm orm-group radio">
+                    <div class="sampleForm form-group checkbox">
                         <label>
-                            <input type="radio" name="probabilityRadios" id="combinedProb" value="combinedProb">
+                            <input type="checkbox" id="combinedProb">
                             Combined Probability of Inclusion
                         </label>
                     </div>
+                    <label id="closeRelativeLabel">Close Relatives</label><br>
+                    <select id="closeRelative">
+                        <option id="default" value="none">None</option>
+                        <option id="siblings" value="siblings">Siblings</option>
+                        <option id="halfSiblings" value="halfSiblings">Half Siblings</option>
+                        <option id="parentChild" value="parentChild">Parent/Child</option>
+                        <option id="cousin" value="firstCousins">First Cousins</option>
+                    </select>
                     <div class="sampleForm form-group">
                         <label for="thetaValue" class="col-sm-2 control-label">Theta Value</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control" id="thetaValue" placeholder="Optional: Enter the theta value for calculations.">
+                            <input id="thetaValue" value="0.01">
                         </div>
                     </div>
                     <div class="sampleForm form-group">
@@ -138,22 +147,22 @@
                 <h4>1. Getting Started</h4>
                 <p>Select the Get Started button to launch the application.</p>
 
-                <h4>2. Choosing a Test Kit</h4>
+                <h4>2. Choosing the Test Kit</h4>
                 <p>Select the name of the test kit that contains the loci and alleles you need.</p>
 
-                <h4>3. Entering Allele Data</h4>
+                <h4>3. Entering Genetic Data</h4>
                 <p>First select one of the loci values and you will see the allele values appear below. Next, select all allele values that are needed To move onto the next set of alleles simply select a new loci value.</p>
             </div>
 
             <div class="col-lg-6">
-                <h4>4. Pick Your Table</h4>
+                <h4>4. Picking the Populations</h4>
                 <p>Select as many allele tables as you wish. Each table will be tested independently using the information you previously selected.</p>
 
-                <h4>5. Preparing the Results</h4>
-                <p>Select which type of probability you wish to use, set your theta value is necessary, enter your name (optional), and enter a name for the sample data that will appear on the results page. When you are ready select the Run Calculations button.</p>
+                <h4>5. Selecting the Statistics</h4>
+                <p>Select which calculations you wish to use, set your theta value if necessary, enter your name (optional), and enter a name for the sample data that will appear on the results page. When you are ready select the "Run Calculations" button.</p>
 
-                <h4>6. Save the Results</h4>
-                <p>Select the download now button to save.</p>
+                <h4>6. Saving the Results</h4>
+                <p>Use your browser to save or print the results.</p>
             </div>
         </div>
 

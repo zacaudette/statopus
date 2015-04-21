@@ -121,12 +121,11 @@
 
 #runCalculationsButton {
     padding: 2% !important;
-    margin: 2% 2%;
+    margin: 5% 35%;
     text-align: center;
     font-size: 1em !important;
     white-space: normal !important;
     width: 30%;
-    float: right;
 }
 
 .sampleForm {
@@ -136,6 +135,15 @@
 
 .sampleForm label {
     width: auto !important;
+}
+
+.checkbox label, #closeRelativeLabel, #closeRelative, #probabilityType {
+    margin-left: 3%;
+}
+
+#thetaValue {
+    width: 12%;
+    text-align: center;
 }
 
 @media screen and (max-width:420px) {

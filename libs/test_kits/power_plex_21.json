@@ -4,7 +4,7 @@
     "BLUE": {
       "json_class": "AFT::Locus",
       "LOCUS": {
-        "D3": {
+        "D3S1358": {
           "9": {
             "json_class": "AFT::Allele"
           },
@@ -42,7 +42,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D1": {
+        "D1S1656": {
           "9": {
             "json_class": "AFT::Allele"
           },
@@ -98,7 +98,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D6": {
+        "D6S1043": {
           "7": {
             "json_class": "AFT::Allele"
           },
@@ -157,7 +157,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D13": {
+        "D13S317": {
           "5": {
             "json_class": "AFT::Allele"
           },
@@ -265,7 +265,7 @@
     "GREEN": {
       "json_class": "AFT::Locus",
       "LOCUS": {
-        "D16": {
+        "D16S539": {
           "4": {
             "json_class": "AFT::Allele"
           },
@@ -306,7 +306,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D18": {
+        "D18S51": {
           "7": {
             "json_class": "AFT::Allele"
           },
@@ -374,7 +374,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D2": {
+        "D2S441": {
           "10": {
             "json_class": "AFT::Allele"
           },
@@ -427,7 +427,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "CSF": {
+        "CSF1PO": {
           "5": {
             "json_class": "AFT::Allele"
           },
@@ -599,7 +599,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D21": {
+        "D21S11": {
           "24": {
             "json_class": "AFT::Allele"
           },
@@ -676,7 +676,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D7": {
+        "D7S820": {
           "5": {
             "json_class": "AFT::Allele"
           },
@@ -714,7 +714,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D5": {
+        "D5S818": {
           "6": {
             "json_class": "AFT::Allele"
           },
@@ -801,7 +801,7 @@
     "RED": {
       "json_class": "AFT::Locus",
       "LOCUS": {
-        "D8": {
+        "D8S1179": {
           "7": {
             "json_class": "AFT::Allele"
           },
@@ -842,7 +842,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D12": {
+        "D12S391": {
           "14": {
             "json_class": "AFT::Allele"
           },
@@ -892,7 +892,7 @@
             "json_class": "AFT::Allele"
           }
         },
-        "D19": {
+        "D19S433": {
           "8": {
             "json_class": "AFT::Allele"
           },

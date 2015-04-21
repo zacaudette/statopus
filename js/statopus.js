@@ -11,14 +11,15 @@ var statopus = new function() {
     this.testkits = [];
     this.alleletables = [];
     this.selectedTestkit = null;
-    this.selectedAlleleTable = null;
+    this.selectedAlleleTables = [];
     this.selectedLoci = null;
     this.selectedAlleles = [];
-    this.randomMatchProbability = true;
+    this.randomMatchProbability = false;
     this.combinedProbability = false;
     this.thetaValue = null;
     this.userName = '';
     this.sampleName = '';
+    this.closeRelatives = '';
 
     // private variables
     this.runApp = function() {
@@ -279,17 +280,17 @@ var statopus = new function() {
         if (testkit.BLUE) {
             var locus = testkit.BLUE.LOCUS;
             for (loci in locus) {
-                if (document.getElementById('loci_' + loci)) {
+                if (document.getElementById('bloci_' + loci)) {
                     continue;
                 }
                 var button = document.createElement('button');
-                button.id = 'loci_' + loci;
+                button.id = 'bloci_' + loci;
                 button.className = 'col-md-3 btn btn-lg btn-primary lociButtons';
                 button.role = 'button';
                 button.innerText = loci;
                 lociContainer.appendChild(button);
                 button.addEventListener('click', function() {
-                    var thisLoci = this.id.substr(5, this.id.length);
+                    var thisLoci = this.id.substr(6, this.id.length);
                     var alleles = locus[thisLoci];
                     if (self.selectedLoci !== null) {
                         var lociButtons = document.getElementsByClassName('lociButtons');
@@ -332,17 +333,17 @@ var statopus = new function() {
         if (testkit.GREEN) {
             var locus = testkit.GREEN.LOCUS;
             for (loci in locus) {
-                if (document.getElementById('loci_' + loci)) {
+                if (document.getElementById('gloci_' + loci)) {
                     continue;
                 }
                 var button = document.createElement('button');
-                button.id = 'loci_' + loci;
+                button.id = 'gloci_' + loci;
                 button.className = 'col-md-3 btn btn-lg btn-success lociButtons';
                 button.role = 'button';
                 button.innerText = loci;
                 lociContainer.appendChild(button);
                 button.addEventListener('click', function() {
-                    var thisLoci = this.id.substr(5, this.id.length);
+                    var thisLoci = this.id.substr(6, this.id.length);
                     if (self.selectedLoci !== null) {
                         var lociButtons = document.getElementsByClassName('lociButtons');
                         if (lociButtons) {
@@ -376,59 +377,6 @@ var statopus = new function() {
                     else {
                         self.selectedLoci = thisLoci;
                         this.style.backgroundColor = '#388038';
-                        this.style.borderColor = '#ffffff';
-                        self.loadAlleles(thisLoci);
-                    }
-                });
-            }
-        }
-        if (testkit.RED) {
-            var locus = testkit.RED.LOCUS;
-            for (loci in locus) {
-                if (document.getElementById('loci_' + loci)) {
-                    continue;
-                }
-                var button = document.createElement('button');
-                button.id = 'loci_' + loci;
-                button.className = 'col-md-3 btn btn-lg btn-danger lociButtons';
-                button.role = 'button';
-                button.innerText = loci;
-                lociContainer.appendChild(button);
-                button.addEventListener('click', function() {
-                    var thisLoci = this.id.substr(5, this.id.length);
-                    if (self.selectedLoci !== null) {
-                        var lociButtons = document.getElementsByClassName('lociButtons');
-                        if (lociButtons) {
-                            var l = lociButtons.length;
-                            for (var i = 0; i < l; i++) {
-                                var locibutton = lociButtons[i];
-                                if (locibutton.classList.contains('btn-primary')) {
-                                    locibutton.style.borderColor = '#2e6da4';
-                                    locibutton.style.backgroundColor = '#337ab7';
-                                }
-                                if (locibutton.classList.contains('btn-success')) {
-                                    locibutton.style.borderColor = '#388038';
-                                    locibutton.style.backgroundColor = '#5cb85c';
-                                }
-                                if (locibutton.classList.contains('btn-danger')) {
-                                    locibutton.style.borderColor = '#d43f3a';
-                                    locibutton.style.backgroundColor = '#d9534f';
-                                }
-                                if (locibutton.classList.contains('btn-default')) {
-                                    locibutton.style.borderColor = '#fff062';
-                                    locibutton.style.backgroundColor = '#fff062';
-                                }
-                            }
-                        }
-
-                        self.selectedLoci = thisLoci;
-                        this.style.backgroundColor = '#a33e3b';
-                        this.style.borderColor = '#ffffff';
-                        self.loadAlleles(thisLoci);
-                    }
-                    else {
-                        self.selectedLoci = thisLoci;
-                        this.style.backgroundColor = '#a33e3b';
                         this.style.borderColor = '#ffffff';
                         self.loadAlleles(thisLoci);
                     }
@@ -438,17 +386,17 @@ var statopus = new function() {
         if (testkit.YELLOW) {
             var locus = testkit.YELLOW.LOCUS;
             for (loci in locus) {
-                if (document.getElementById('loci_' + loci)) {
+                if (document.getElementById('yloci_' + loci)) {
                     continue;
                 }
                 var button = document.createElement('button');
-                button.id = 'loci_' + loci;
+                button.id = 'yloci_' + loci;
                 button.className = 'col-md-3 btn btn-lg btn-default yellow lociButtons';
                 button.role = 'button';
                 button.innerText = loci;
                 lociContainer.appendChild(button);
                 button.addEventListener('click', function() {
-                    var thisLoci = this.id.substr(5, this.id.length);
+                    var thisLoci = this.id.substr(6, this.id.length);
                     if (self.selectedLoci !== null) {
                         var lociButtons = document.getElementsByClassName('lociButtons');
                         if (lociButtons) {
@@ -482,6 +430,59 @@ var statopus = new function() {
                     else {
                         self.selectedLoci = thisLoci;
                         this.style.backgroundColor = '#b5af2b';
+                        this.style.borderColor = '#ffffff';
+                        self.loadAlleles(thisLoci);
+                    }
+                });
+            }
+        }
+        if (testkit.RED) {
+            var locus = testkit.RED.LOCUS;
+            for (loci in locus) {
+                if (document.getElementById('rloci_' + loci)) {
+                    continue;
+                }
+                var button = document.createElement('button');
+                button.id = 'rloci_' + loci;
+                button.className = 'col-md-3 btn btn-lg btn-danger lociButtons';
+                button.role = 'button';
+                button.innerText = loci;
+                lociContainer.appendChild(button);
+                button.addEventListener('click', function() {
+                    var thisLoci = this.id.substr(6, this.id.length);
+                    if (self.selectedLoci !== null) {
+                        var lociButtons = document.getElementsByClassName('lociButtons');
+                        if (lociButtons) {
+                            var l = lociButtons.length;
+                            for (var i = 0; i < l; i++) {
+                                var locibutton = lociButtons[i];
+                                if (locibutton.classList.contains('btn-primary')) {
+                                    locibutton.style.borderColor = '#2e6da4';
+                                    locibutton.style.backgroundColor = '#337ab7';
+                                }
+                                if (locibutton.classList.contains('btn-success')) {
+                                    locibutton.style.borderColor = '#388038';
+                                    locibutton.style.backgroundColor = '#5cb85c';
+                                }
+                                if (locibutton.classList.contains('btn-danger')) {
+                                    locibutton.style.borderColor = '#d43f3a';
+                                    locibutton.style.backgroundColor = '#d9534f';
+                                }
+                                if (locibutton.classList.contains('btn-default')) {
+                                    locibutton.style.borderColor = '#fff062';
+                                    locibutton.style.backgroundColor = '#fff062';
+                                }
+                            }
+                        }
+
+                        self.selectedLoci = thisLoci;
+                        this.style.backgroundColor = '#a33e3b';
+                        this.style.borderColor = '#ffffff';
+                        self.loadAlleles(thisLoci);
+                    }
+                    else {
+                        self.selectedLoci = thisLoci;
+                        this.style.backgroundColor = '#a33e3b';
                         this.style.borderColor = '#ffffff';
                         self.loadAlleles(thisLoci);
                     }
@@ -636,30 +637,31 @@ var statopus = new function() {
                 alleleTablesContainer.appendChild(button);
             }
             button.addEventListener('click', function() {
-                if (self.selectedAlleleTable !== null) {
-                    var alleleTablesButtons = document.getElementsByClassName('alleleTablesButtons');
-                    if (alleleTablesButtons) {
-                        var l = alleleTablesButtons.length;
-                        for (var i = 0; i < l; i++) {
-                            var alleleTablesButton = alleleTablesButtons[i];
-                            alleleTablesButton.style.borderColor = '#388038';
-                            alleleTablesButton.style.backgroundColor = '#5cb85c';
+                var l = self.selectedAlleleTables.length;
+                var inListAlready = false;
+                if (l > 0) {
+                    var index = null;
+                    for (var i = 0; i < l; i++) {
+                        var selectedAlleleTable = self.selectedAlleleTables[i];
+                        if (selectedAlleleTable === this.id) {
+                            inListAlready = true;
+                            index = i;
+                            break;
                         }
                     }
-
-                    if (self.selectedAlleleTable === this.id) {
-                        self.selectedAlleleTable = null;
+                    if (inListAlready) {
+                        self.selectedAlleleTables.splice(index, 1);
                         this.style.borderColor = '#388038';
                         this.style.backgroundColor = '#5cb85c';
                     }
                     else {
-                        self.selectedAlleleTable = this.id;
+                        self.selectedAlleleTables.push(this.id);
                         this.style.backgroundColor = '#388038';
                         this.style.borderColor = '#ffffff';
                     }
                 }
                 else {
-                    self.selectedAlleleTable = this.id;
+                    self.selectedAlleleTables.push(this.id);
                     this.style.backgroundColor = '#388038';
                     this.style.borderColor = '#ffffff';
                 }
