@@ -1,3 +1,30 @@
+table {
+    width: 100%;
+    border-radius: 6px;
+}
+
+table, th, tr, td {
+    border: .25em solid black;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+tr:first-child th:first-child {
+    border-radius: 0.2em 0 0 0;
+}
+
+tr:first-child th:last-child {
+    border-radius: 0 0.2em 0 0;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 0.2em;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 0.2em 0;
+}
+
 .header {
     margin-bottom: 2%;
 }
@@ -38,11 +65,11 @@
 
 .yellow {
     background-color: #fff062;
-    border-color: #fff062;
+    border-color: #ecde5b;
 }
 
 .yellow:hover {
-    background-color: #fff062;
+    background-color: #ecde5b;
     border-color: #fff062;
 }
 
@@ -154,21 +181,30 @@
     text-align: center;
 }
 
+.resultsP {
+    font-size: 14px !important;
+    float: left;
+    clear: both !important;
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
 @media screen and (max-width:420px) {
     .allelesButtons {
-        padding: 3% !important;
-        margin: 1% 2%;
-        text-align: center;
-        font-size: 1em !important;
-        white-space: normal !important;
         width: 15%;
     }
 
+    .lociButtons {
+        width: 30%;
+    }
+
     .forwardButton {
-        background: url('../images/chevron-right.svg') no-repeat;
-        background-size: 50%;
-        min-height: 50px;
-        vertical-align: middle;
         margin-left: 45%;
     }
 }
