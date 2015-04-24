@@ -25,7 +25,6 @@ var statopus = new function() {
     this.combinedMatchResults = [];
     this.currentTable = null;
 
-    // private variables
     this.runApp = function() {
         self.getTestKitsNames();
         self.getAlleleTableNames();
@@ -52,6 +51,24 @@ var statopus = new function() {
                 var sampleCalculations = document.getElementById('sampleCalculations');
                 if (sampleCalculations) {
                     sampleCalculations.style.display = 'none';
+                }
+                var sampleResults = document.getElementById('sampleResults');
+                if (sampleResults) {
+                    sampleResults.style.display = 'none';
+                    sampleResults.innerHTML = '';
+                    self.selectedTestkit = null;
+                    self.selectedAlleleTables = [];
+                    self.selectedLoci = null;
+                    self.selectedAlleles = [];
+                    self.randomMatchProbability = false;
+                    self.combinedProbability = false;
+                    self.thetaValue = 0.01;
+                    self.userName = '';
+                    self.sampleName = '';
+                    self.closeRelatives = '';
+                    self.randomMatchResults = [];
+                    self.combinedMatchResults = [];
+                    self.currentTable = null;
                 }
             });
         }
@@ -237,7 +254,7 @@ var statopus = new function() {
             button.id = testkit.NAME;
             button.className = 'col-md-3 btn btn-lg btn-success testkitsButtons';
             button.role = 'button';
-            button.innerText = testkit.NAME;
+            button.innerHTML = testkit.NAME;
             if (document.getElementById(testkit.NAME)) {
             }
             else {
@@ -304,7 +321,7 @@ var statopus = new function() {
                 button.id = 'bloci_' + loci;
                 button.className = 'col-md-3 btn btn-lg btn-primary lociButtons';
                 button.role = 'button';
-                button.innerText = loci;
+                button.innerHTML = loci;
                 lociContainer.appendChild(button);
                 button.addEventListener('click', function() {
                     var thisLoci = this.id.substr(6, this.id.length);
@@ -357,7 +374,7 @@ var statopus = new function() {
                 button.id = 'gloci_' + loci;
                 button.className = 'col-md-3 btn btn-lg btn-success lociButtons';
                 button.role = 'button';
-                button.innerText = loci;
+                button.innerHTML = loci;
                 lociContainer.appendChild(button);
                 button.addEventListener('click', function() {
                     var thisLoci = this.id.substr(6, this.id.length);
@@ -410,7 +427,7 @@ var statopus = new function() {
                 button.id = 'yloci_' + loci;
                 button.className = 'col-md-3 btn btn-lg btn-default yellow lociButtons';
                 button.role = 'button';
-                button.innerText = loci;
+                button.innerHTML = loci;
                 lociContainer.appendChild(button);
                 button.addEventListener('click', function() {
                     var thisLoci = this.id.substr(6, this.id.length);
@@ -463,7 +480,7 @@ var statopus = new function() {
                 button.id = 'rloci_' + loci;
                 button.className = 'col-md-3 btn btn-lg btn-danger lociButtons';
                 button.role = 'button';
-                button.innerText = loci;
+                button.innerHTML = loci;
                 lociContainer.appendChild(button);
                 button.addEventListener('click', function() {
                     var thisLoci = this.id.substr(6, this.id.length);
@@ -572,7 +589,7 @@ var statopus = new function() {
                 button.id = 'alleles_' + allele;
                 button.className = 'col-md-3 btn btn-lg btn-success allelesButtons';
                 button.role = 'button';
-                button.innerText = allele;
+                button.innerHTML = allele;
                 button.setAttribute('alleleValue', allele);
                 button.setAttribute('lociValue', loci);
                 button.setAttribute('selected', 'false');
@@ -647,7 +664,7 @@ var statopus = new function() {
             button.id = table.name;
             button.className = 'col-md-3 btn btn-lg btn-success alleleTablesButtons';
             button.role = 'button';
-            button.innerText = table.name;
+            button.innerHTML = table.name;
             if (document.getElementById(table.name)) {
             }
             else {
