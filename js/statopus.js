@@ -1217,9 +1217,15 @@ var statopus = new function() {
                         }
                         else {
                             var minF = 10;
-                            l = alleles.length;
-                            for (a in alleles) {
-                                var f = alleles[a].data.frequency;
+                            var aLength = currentResults.table.table[currentLoci.locus].data.alleles.length;
+                            for (var ii = 0; ii < aLength; ii++) {
+                                var f = minF;
+                                if (currentResults.table.table[currentLoci.locus].data.alleles[allele.allele]) {
+                                    f = currentResults.table.table[currentLoci.locus].data.alleles[allele.allele].data.frequency;
+                                }
+                                else {
+                                    continue;
+                                }
                                 if (f < minF) {
                                     minF = f;
                                 }
@@ -1313,9 +1319,15 @@ var statopus = new function() {
                         }
                         else {
                             var minF = 10;
-                            l = alleles.length;
-                            for (a in alleles) {
-                                var f = alleles[a].data.frequency;
+                            var aLength = currentResults.table.table[currentLoci.locus].data.alleles.length;
+                            for (var ii = 0; ii < aLength; ii++) {
+                                var f = minF;
+                                if (currentResults.table.table[currentLoci.locus].data.alleles[allele.allele]) {
+                                    f = currentResults.table.table[currentLoci.locus].data.alleles[allele.allele].data.frequency;
+                                }
+                                else {
+                                    continue;
+                                }
                                 if (f < minF) {
                                     minF = f;
                                 }
