@@ -40,6 +40,17 @@ tr:last-child td:last-child {
     cursor: pointer;
 }
 
+#tutorialButton {
+    float: right;
+    text-decoration: none;
+    color: #777;
+}
+
+#tutorialButton:hover {
+    text-decoration: none;
+    color: #000;
+}
+
 .backButton {
     background: url('../images/chevron-left.svg') no-repeat;
     background-size: 50%;
