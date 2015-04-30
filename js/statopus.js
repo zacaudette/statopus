@@ -1068,7 +1068,6 @@ var statopus = new function() {
         }
         else {
             var minF = 10;
-            l = alleles.length;
             for (a in alleles) {
                 var f = alleles[a].data.frequency;
                 if (f < minF) {
