@@ -230,6 +230,19 @@ var statopus = new function() {
                 });
             }
         }
+
+        // add handler to the theta value input
+        var thetaValue = document.getElementById('thetaValue');
+        if (thetaValue) {
+            thetaValue.addEventListener('change', function() {
+                if (this.value > 1) {
+                    this.value = 1;
+                }
+                if (this.value < 0) {
+                    this.value = 0;
+                }
+            });
+        }
     };
 
     this.getTestKitsNames = function() {
